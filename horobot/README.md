@@ -19,3 +19,22 @@ func init --worker-runtime python
 func new --name HttpTrigger --template "HTTP trigger" --authlevel "function"
 ```
 
+to run
+
+remember to activate venv
+
+```
+source .venv/bin/activate
+```
+
+pytest
+
+```
+pytest test_function_app.py
+```
+
+Azure Functions
+
+```
+func start
+```

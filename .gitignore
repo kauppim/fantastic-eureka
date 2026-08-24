@@ -50,3 +50,13 @@ __queuestorage__
 __tablestorage__
 __azurite_db*__.json
 AzuriteConfig
+
+# Secrets
+.env*
+
+# Dependencies
+node_modules
+
+# OS files
+.DS_Store
+Thumbs.db
