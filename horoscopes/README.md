@@ -1,4 +1,6 @@
-Steps to create horobot
+# horoscopes : a Function App
+
+## Steps to create the Function App
 
 Prereqs: [prereqs](https://learn.microsoft.com/en-us/azure/azure-functions/how-to-create-function-azure-cli?pivots=programming-language-python&tabs=macos%2Cbash%2Cazure-cli#prerequisites)
 
@@ -19,7 +21,7 @@ func init --worker-runtime python
 func new --name HttpTrigger --template "HTTP trigger" --authlevel "function"
 ```
 
-to run
+## How to run
 
 remember to activate venv
 
